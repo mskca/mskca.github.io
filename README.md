@@ -1,25 +1,30 @@
-# Carlos Munhos — standalone portfolio
+# Carlos Munhos
 
-Open **index.html** to view the portfolio. This folder is the complete website: plain HTML, CSS, JavaScript, and local images. It needs no package manager, framework, installation, compilation, CDN, or external fonts.
+**Security Engineer · Vulnerability Researcher**
 
-## GitHub Pages
+My personal portfolio, bringing together public vulnerability disclosures, security research, professional certifications, and experience in product security, red teaming, and security architecture.
 
-1. Copy the **contents** of this folder into your GitHub Pages publishing location: the repository root, or a `docs` folder if that is your chosen publishing source. Include `.nojekyll`.
-2. In the repository's **Settings → Pages**, select that branch and publishing folder.
+**[Explore the portfolio →](https://mskca.github.io/)** · [Português (Brasil)](https://mskca.github.io/pt-br/)
 
-The explicit relative `index.html` links support both `username.github.io` and `username.github.io/repository/`. No Astro workflow or build command is needed. If you use this in the current repository, publish these static files rather than its existing framework build output.
+## Research & practice
 
-## Editing
+- **Vulnerability research:** coordinated disclosures and technical reports on MLflow security vulnerabilities.
+- **Academic research:** named entity recognition for personal data discovery in audio transcriptions, published at SBSeg 2025.
+- **Professional experience:** security architecture at Dell Technologies and previous red-team work at DropReal.
+- **Teaching:** LLM security instruction at FIAP / Alura, covering Python, machine learning, AI agent security, and MCP.
+- **Certifications:** credentials spanning information security, offensive security, and AI security.
 
-- `index.html` and `pt-br/index.html`: English and Brazilian Portuguese homepages.
-- `about/`, `research/`, `cves/`, `certifications/`: English sections and complete public reports.
-- `pt-br/`: corresponding Portuguese pages, with page-specific language links.
-- `projects/` and `recognition/`: preserved existing public sections.
-- `assets/style.css`: all layout, responsive, light, and dark styles.
-- `assets/site.js`: theme preference, mobile navigation, certification search, and code-copy controls.
-- `images/`: local certification artwork and profile photo.
-- `og/`: existing social sharing artwork.
+## The website
 
-Content is directly in each HTML file; JavaScript is not needed to read it. When editing content, update both languages. Theme preferences are saved in browser storage when available; the initial theme follows the operating system, with dark as the fallback. Certification search ignores case and accents. Motion respects the visitor's reduced-motion preference.
+Built with **HTML, CSS, and vanilla JavaScript**, and designed for GitHub Pages. No frameworks, package dependencies, or build step.
 
-Only the existing public portfolio content is included. The original portfolio files remain separate.
+- Terminal-inspired visual design with dark and light themes.
+- Complete English and Brazilian Portuguese versions.
+- Responsive layouts for desktop and mobile.
+- Searchable certifications with credential verification links.
+- Static, readable content with keyboard navigation and reduced-motion support.
+- Locally hosted images and system fonts.
+
+## Find me
+
+[GitHub](https://github.com/mskca) · [LinkedIn](https://linkedin.com/in/carlos-munhos)
